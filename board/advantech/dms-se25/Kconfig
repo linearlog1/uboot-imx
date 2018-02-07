@@ -1,0 +1,12 @@
+if TARGET_ADVANTECH_DMS_SE25
+
+config SYS_BOARD
+	default "dms-se25"
+
+config SYS_VENDOR
+	default "advantech"
+
+config SYS_CONFIG_NAME
+	default "dms-se25"
+
+endif

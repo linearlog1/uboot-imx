@@ -87,6 +87,13 @@ config TARGET_ADVANTECH_DMS_BA16
 	select BOARD_LATE_INIT
 	select MX6Q
 
+config TARGET_ADVANTECH_DMS_SE25
+	bool "Support Advantech dms-se25"
+	select BOARD_LATE_INIT
+	select MX6ULL
+	select DM
+	select DM_THERMAL
+
 config TARGET_APALIS_IMX6
 	bool "Toradex Apalis iMX6 board"
 	select BOARD_LATE_INIT
@@ -470,6 +477,7 @@ config SYS_SOC
 
 source "board/ge/bx50v3/Kconfig"
 source "board/advantech/dms-ba16/Kconfig"
+source "board/advantech/dms-se25/Kconfig"
 source "board/aristainetos/Kconfig"
 source "board/bachmann/ot1200/Kconfig"
 source "board/barco/platinum/Kconfig"

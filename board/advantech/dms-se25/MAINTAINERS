@@ -1,0 +1,6 @@
+MX6ULLEVK BOARD
+M:	Alleen Wang <alleen.wang@advantech.com.tw>
+S:	Maintained
+F:	board/advantech/dms-se25/
+F:	include/configs/dms-se25.h
+F:	configs/dms-se25_defconfig
